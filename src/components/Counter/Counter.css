@@ -1,11 +1,19 @@
 .increment {
-  color: green;
-  padding: 1dvh;
-  width: 12dvw;
-  margin-left: 2dvw;
-  border-radius: 5px;
+  color: rgb(246, 246, 246);
+  margin-left: 3dvw;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  width: 5px;
+  border-radius: 68px;
+  background-color: green;
+  text-align: center;
 }
 .decrement {
-  color: red;
+  color: black;
   padding: 0.5dvh;
+  border-radius: 15px;
+  width: 20dvw;
+  padding: 4px;
+  background-color: red;
 }

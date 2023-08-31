@@ -9,14 +9,14 @@ function Form() {
       <label>no:</label>
       <input type="checkbox" id="checkNo" className="checkbox-no" />
       <br />
-      <label>Write your firstname</label>
+      <label>Enter your firstname:</label>
       <input
         type="text"
         id="userInputFn"
         placeholder="firstname"
         className="first-name-input"
       ></input>
-      <label>Write your lastname</label>
+      <label>Enter your lastname</label>
       <input
         type="text"
         id="userInputLn"

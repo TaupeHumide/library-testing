@@ -6,11 +6,17 @@
   background-color: antiquewhite;
   color: brown;
   width: 18dvw;
+  margin-right: 5dvw;
 }
 .last-name-input {
   border-radius: 8px;
+  height: 8dvh;
   background-color: gold;
-  color: blue;
+  color: rgb(45, 2, 54);
+  width: 25dvw;
+  text-align: center;
 }
+
 .email-input {
+  background-color: ;
 }

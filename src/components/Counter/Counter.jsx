@@ -23,7 +23,7 @@ function Counter() {
         onClick={() => setCount(count + 1)}
         className="increment"
       >
-        +1
+        +
       </button>
     </div>
   );
