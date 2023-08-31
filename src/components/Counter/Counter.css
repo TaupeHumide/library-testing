@@ -1,0 +1,11 @@
+.increment {
+  color: green;
+  padding: 1dvh;
+  width: 12dvw;
+  margin-left: 2dvw;
+  border-radius: 5px;
+}
+.decrement {
+  color: red;
+  padding: 0.5dvh;
+}
