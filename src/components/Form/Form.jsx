@@ -4,6 +4,7 @@ function Form() {
   return (
     <form className="form-body">
       <label>Do you want to subscribe to our newsletter?</label>
+      <br />
       <label>yes:</label>
       <input type="checkbox" id="checkYes" className="checkbox-yes" />
       <label>no:</label>
@@ -15,22 +16,27 @@ function Form() {
         id="userInputFn"
         placeholder="firstname"
         className="first-name-input"
-      ></input>
-      <label>Enter your lastname</label>
+      />
+      <br />
+      <label>Enter your lastname:</label>
       <input
         type="text"
         id="userInputLn"
         placeholder="lastname"
         className="last-name-input"
-      ></input>
-      <label>Enter your email</label>
+      />
+      <br />
+      <label>Enter your email:</label>
       <input
         type="email"
         id="userInputE"
         placeholder="email"
         className="email-input"
-      ></input>
-      <button type="submit">Send</button>
+      />
+      <br />
+      <button type="submit" className="form-button-send">
+        Send
+      </button>
     </form>
   );
 }

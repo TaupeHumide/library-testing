@@ -7,6 +7,7 @@ function HomePage() {
     <div>
       <MenuBurger />
       <img src={dog} alt="Profil" className="image-centree" />
+      <br />
       <button className="bouton-connexion">Se Connecter</button>
     </div>
   );

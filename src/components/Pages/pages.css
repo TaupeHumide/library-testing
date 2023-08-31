@@ -1,5 +1,6 @@
 .image-centree {
   max-width: 30dvw;
+  margin: 2dvw;
 }
 
 .bouton-connexion {
@@ -7,4 +8,5 @@
   border-width: 2px;
   width: 15dvw;
   font-size: small;
+  margin: 2dvw;
 }

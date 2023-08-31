@@ -1,15 +1,22 @@
+import "./NavBar.css";
 function NavBar() {
   return (
-    <nav>
-      <ul>
-        <li>
-          <a href="#homepage">Homepage</a>
+    <nav className="nav-bar">
+      <ul className="nav-ul">
+        <li className="homepage-li">
+          <a href="#homepage" className="homepage-link">
+            Homepage
+          </a>
         </li>
-        <li>
-          <a href="#dir3ectory">dir3ectory</a>
+        <li className="directory-li">
+          <a href="#dir3ectory" className="directory-link">
+            dir3ectory
+          </a>
         </li>
-        <li>
-          <a href="#contact">contact</a>
+        <li className="contact-li">
+          <a href="#contact" className="contact-link">
+            contact
+          </a>
         </li>
       </ul>
     </nav>

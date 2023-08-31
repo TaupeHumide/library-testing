@@ -1,22 +1,43 @@
 .form-body {
   text-align: align-left;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 241, 182, 1) 0%,
+    rgba(255, 44, 227, 1) 98%
+  );
+  padding: 1dvw;
 }
 
 .first-name-input {
-  background-color: antiquewhite;
   color: brown;
-  width: 18dvw;
+  width: 12dvw;
   margin-right: 5dvw;
+  margin-bottom: 2dvh;
+  margin-left: 2dvw;
 }
 .last-name-input {
   border-radius: 8px;
-  height: 8dvh;
-  background-color: gold;
+  height: 5dvh;
   color: rgb(45, 2, 54);
   width: 25dvw;
   text-align: center;
+  margin-bottom: 2dvh;
+  margin-left: 2dvw;
 }
 
 .email-input {
-  background-color: ;
+  background-color: rgb(156, 247, 243);
+  border-width: 3px;
+  margin-left: 2dvw;
+  margin-bottom: 2dvh;
+  border-style: dotted;
+  border-color: rgb(255, 244, 164);
+}
+.form-button-send {
+  margin-bottom: 2dvh;
+  border-radius: 15px;
+  width: 20dvw;
+  padding: 4px;
+
+  color: rgb(243, 112, 191);
 }
